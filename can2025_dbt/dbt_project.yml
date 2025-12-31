@@ -1,0 +1,33 @@
+name: 'can2025'
+version: '1.0.0'
+config-version: 2
+
+profile: 'can2025'
+
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+models:
+  can2025:
+    # Apply to staging models
+    staging:
+      +materialized: view
+      +tags: ["staging"]
+    
+    # Apply to intermediate models
+    intermediate:
+      +materialized: view
+      +tags: ["intermediate"]
+    
+    # Apply to mart models
+    marts:
+      +materialized: table
+      +tags: ["marts"]

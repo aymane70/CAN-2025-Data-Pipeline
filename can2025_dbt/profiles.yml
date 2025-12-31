@@ -1,0 +1,14 @@
+can2025:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: service-account
+      project: artefactpipeline  # Replace with your project ID
+      dataset: can2025_transformed  # Where transformed data will be stored
+      threads: 4
+      keyfile: /home/aymane/Documents/aymane/SBI_STUDENT_CHALLENGE/gcpKey.json  # Path to your GCP key file
+      location: US
+      timeout_seconds: 300
+      priority: interactive
+      retries: 3

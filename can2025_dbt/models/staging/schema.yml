@@ -1,0 +1,20 @@
+version: 2
+
+models:
+  - name: stg_teams
+    description: Cleaned teams data
+    
+  - name: stg_players
+    description: Cleaned players data with age and value categories
+    
+  - name: stg_stadiums
+    description: Cleaned stadiums data
+    
+  - name: stg_matches
+    description: Cleaned matches data with derived columns
+    
+  - name: stg_match_events
+    description: Cleaned match events with flags
+    
+  - name: stg_ticket_sales
+    description: Cleaned ticket sales data

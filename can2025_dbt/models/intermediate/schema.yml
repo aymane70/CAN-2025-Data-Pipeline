@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: int_team_performance
+    description: Team performance metrics from all matches
+    
+  - name: int_player_statistics
+    description: Player statistics aggregated from match events
+    
+  - name: int_revenue_analysis
+    description: Revenue analysis aggregated by match

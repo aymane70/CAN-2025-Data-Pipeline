@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: mart_team_standings
+    description: Final team standings with rankings
+    
+  - name: mart_top_scorers
+    description: Top goal scorers with rankings
+    
+  - name: mart_stadium_performance
+    description: Stadium performance metrics
+    
+  - name: mart_financial_summary
+    description: Financial summary by match

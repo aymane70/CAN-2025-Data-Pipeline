@@ -1,0 +1,553 @@
+player_id,team_id,player_name,position,age,height_cm,club,market_value_millions
+1,1,Jerry Miller,Forward,22,187,Sweeney Inc,67.9
+2,1,Joshua Vazquez,Midfielder,20,194,Saunders-Reeves,43.1
+3,1,Chris Anderson,Forward,21,183,"Barton, Bowman and Nelson",66.4
+4,1,Julie Nicholson MD,Midfielder,25,169,Alexander Group,4.1
+5,1,Melissa Montoya,Defender,28,170,Miller-Sanchez,68.5
+6,1,Justin Jackson,Goalkeeper,31,182,Ritter Inc,36.5
+7,1,Andrew Hall,Midfielder,24,188,Crawford PLC,28.7
+8,1,Lawrence Hernandez,Midfielder,21,175,Elliott-Holden,43.0
+9,1,Ariana Reed DDS,Defender,24,194,Carpenter LLC,30.7
+10,1,Andrew Owen,Defender,29,168,"Ramirez, Gilmore and Curtis",18.7
+11,1,Peter Ferguson,Goalkeeper,29,190,Mahoney-Jones,21.8
+12,1,Alice Logan,Defender,29,178,Oliver Inc,52.6
+13,1,Ashley Reynolds,Forward,33,174,Page PLC,21.6
+14,1,Matthew Cole,Defender,27,192,"Harper, Johnson and Clark",71.9
+15,1,Bonnie Thomas,Forward,30,179,"Patterson, Clark and Morton",79.8
+16,1,Kathryn Schneider,Defender,35,196,"Benitez, Forbes and Fuller",7.7
+17,1,John Harris,Goalkeeper,22,174,"Callahan, Perez and Potts",50.4
+18,1,Mitchell Leblanc,Forward,21,189,"Stokes, Fleming and Walker",30.8
+19,1,Alan Buckley,Forward,35,181,Davis-Chang,77.7
+20,1,James Gregory,Goalkeeper,22,182,Morris-Ward,61.6
+21,1,Michael White,Midfielder,22,183,Lopez-Avery,35.1
+22,1,Mary Santiago,Forward,19,181,"Howard, Goodwin and Cisneros",77.8
+23,1,Renee Myers,Defender,35,171,Cox-Cox,69.7
+24,2,Rhonda Walker,Midfielder,35,177,Wolfe PLC,12.7
+25,2,Jessica Price,Defender,35,165,Clarke-Madden,48.1
+26,2,Stephanie Velez,Forward,19,172,"Lee, Cooper and Gibbs",74.4
+27,2,Adam Miller,Midfielder,26,168,Martin-Tran,19.6
+28,2,Stanley Greene,Goalkeeper,21,196,Barnes and Sons,65.4
+29,2,Andrew Sparks,Defender,23,195,Mcpherson PLC,75.8
+30,2,Heidi Obrien,Defender,27,198,Kline-Young,69.9
+31,2,Janice Oconnor,Forward,25,177,"Cabrera, Morris and Diaz",57.2
+32,2,Timothy Williams,Forward,30,193,Oliver and Sons,72.0
+33,2,Kristine Pratt,Forward,22,180,Schmitt Ltd,18.4
+34,2,Nancy Larsen,Midfielder,19,179,Powell and Sons,47.3
+35,2,Jill Christian,Goalkeeper,21,168,Hicks-Harris,18.7
+36,2,Andrea Lopez,Goalkeeper,29,169,Sanchez PLC,41.4
+37,2,Dawn Mueller,Midfielder,34,178,"Mccarty, Fernandez and Jones",43.4
+38,2,Justin Park,Forward,26,195,"Fischer, Parrish and Skinner",64.7
+39,2,Clinton Gutierrez,Defender,22,171,Frye-Peck,52.9
+40,2,Daniel Torres,Midfielder,32,191,Martin Group,37.6
+41,2,Christina Cook PhD,Goalkeeper,22,168,Gould PLC,32.5
+42,2,Nathan Garcia,Midfielder,22,180,"Marshall, Adams and Solomon",15.7
+43,2,Gabrielle Johnston,Forward,23,192,Munoz-Smith,15.1
+44,2,Elizabeth Mccoy,Forward,26,169,"Hines, Nunez and Dalton",35.7
+45,2,Lucas White,Goalkeeper,20,165,"Roy, Carrillo and Pena",77.5
+46,2,Holly Schneider,Defender,24,191,"Estrada, Williams and Weber",39.1
+47,3,Paul Arias,Defender,31,168,Rowland and Sons,13.6
+48,3,Joann Lewis,Goalkeeper,31,181,"Jacobs, Peters and Castaneda",74.2
+49,3,Donna Mckay,Forward,28,192,Young-Medina,55.9
+50,3,Mark Forbes,Forward,23,177,Allen-Bird,24.1
+51,3,Amanda Sanchez,Goalkeeper,20,185,Cook Ltd,5.0
+52,3,Susan Chaney,Forward,35,198,Bean-Willis,13.0
+53,3,David Miller,Goalkeeper,24,169,Stout-Carey,47.8
+54,3,Robert Williams,Defender,31,172,"Simpson, Hansen and Chambers",75.4
+55,3,Jorge Jordan,Defender,20,170,"Chapman, Hughes and Mendoza",33.8
+56,3,William Garcia,Midfielder,27,178,Welch-Allen,53.7
+57,3,Michael Diaz,Midfielder,26,181,"Stokes, Gardner and Stephens",32.0
+58,3,Donald Campbell,Midfielder,33,185,"Ford, Jones and Moreno",74.4
+59,3,Charles Richardson,Goalkeeper,19,194,"Jones, Flynn and Rodriguez",49.9
+60,3,Monica Lee,Goalkeeper,21,178,Parker-Lewis,40.7
+61,3,Regina Santana,Defender,30,169,Morgan-Martinez,70.4
+62,3,Claire Hoffman,Midfielder,28,175,Ward-Underwood,35.3
+63,3,Jermaine Bell,Midfielder,35,165,Taylor-Garcia,53.6
+64,3,Kevin Valencia,Midfielder,22,173,Carson-Rich,21.5
+65,3,Kelly Hughes,Goalkeeper,23,182,Aguilar-Collins,22.9
+66,3,Timothy Perez,Defender,29,178,"Massey, Fisher and Murphy",55.2
+67,3,Maria Best,Midfielder,35,196,Silva-Russo,20.5
+68,3,Kelly Dyer,Goalkeeper,21,192,"Caldwell, Allen and Hayes",66.4
+69,3,Jessica Allen,Goalkeeper,19,186,Hendricks-Smith,61.8
+70,4,Alex Robinson,Midfielder,24,193,Gomez-Marshall,44.4
+71,4,Gina Barton,Forward,19,172,"Wilson, Perez and Cruz",6.5
+72,4,Victoria Duncan,Defender,20,188,Ballard Group,46.8
+73,4,Joseph Kennedy,Defender,32,173,"Edwards, Berry and Mcmillan",3.8
+74,4,Ann Hernandez,Midfielder,20,187,"Rice, Lin and Hall",17.2
+75,4,Kimberly Schwartz,Defender,22,187,"Carlson, Moon and Colon",62.5
+76,4,Brenda Taylor,Forward,23,180,Liu LLC,69.2
+77,4,Timothy Hill,Defender,32,166,Meyer and Sons,14.8
+78,4,Susan Jackson,Midfielder,32,180,"Weiss, Mccoy and Harper",21.7
+79,4,Cody Mcdonald,Goalkeeper,31,167,Anthony-Luna,68.8
+80,4,Christopher Williams,Defender,25,194,"Holloway, Garcia and Hunt",28.3
+81,4,Jennifer Oneill,Defender,26,166,Grimes-Greer,53.0
+82,4,Gary Summers,Forward,29,182,Rodriguez Ltd,69.2
+83,4,Brittany Reese,Midfielder,30,197,Smith-Oliver,32.3
+84,4,Michelle Fritz,Midfielder,19,172,Taylor and Sons,70.2
+85,4,Alexis Wright,Midfielder,24,181,Chavez Inc,3.5
+86,4,Michael Ingram,Forward,30,185,Salazar-Valentine,35.2
+87,4,Blake Woods,Goalkeeper,31,177,Olson-Potter,20.8
+88,4,Ashley Underwood,Forward,19,198,Thompson-Dixon,74.1
+89,4,Jonathan Powell,Defender,30,192,Austin LLC,6.1
+90,4,Adriana Wade,Midfielder,29,172,Mckee Ltd,57.7
+91,4,Jamie Cox,Midfielder,35,184,"Smith, Bowen and Taylor",53.5
+92,4,Autumn Hughes,Midfielder,31,183,Hodges-Allison,44.6
+93,5,Tiffany Day,Defender,32,189,Farley and Sons,54.3
+94,5,Tami Wilson,Defender,28,190,"Wolf, Erickson and Obrien",44.1
+95,5,Timothy Wright,Goalkeeper,28,183,Ryan Ltd,17.2
+96,5,Eric Barker,Midfielder,33,193,Lopez Inc,35.7
+97,5,David Fernandez,Defender,35,195,"Morales, Howard and Burke",63.6
+98,5,Jerome Miller Jr.,Defender,21,183,"Woods, Barron and Miller",41.5
+99,5,Anthony Salas,Midfielder,21,180,"Kennedy, Allen and Anderson",54.0
+100,5,Courtney Hamilton,Defender,25,174,Moore Group,2.4
+101,5,John Reed,Defender,34,169,Johnson and Sons,36.7
+102,5,Kimberly Richardson,Defender,31,196,Flores Inc,32.3
+103,5,Janice Wallace,Defender,19,171,"Elliott, Gibbs and Donovan",62.4
+104,5,Abigail Anderson,Defender,24,198,Frank-Frank,37.4
+105,5,Daniel Garrett,Defender,22,194,Cisneros-Kelly,11.1
+106,5,Michele Warner,Forward,35,185,Chan-Patterson,76.0
+107,5,Wendy Haynes,Forward,35,192,Hicks Ltd,66.5
+108,5,Anthony Mccoy,Forward,24,195,"Yates, Miller and Porter",36.3
+109,5,William Brown,Defender,27,198,Sanchez PLC,39.0
+110,5,Janice Cabrera,Defender,27,193,Lopez Ltd,6.7
+111,5,Andrew Brown,Midfielder,26,182,Martin-Johnson,27.2
+112,5,Kimberly Wagner,Goalkeeper,23,174,Martinez Group,18.9
+113,5,Jeffrey Gonzalez,Defender,25,169,Young LLC,33.5
+114,5,William Crane,Midfielder,33,191,Evans Ltd,5.5
+115,5,Adam Henry,Forward,31,166,Lawrence-Sullivan,68.6
+116,6,Nancy Phelps,Forward,34,165,Lee Group,75.4
+117,6,Chloe Mccarty,Midfielder,31,191,Stevens-Ramirez,43.3
+118,6,Jason Fitzgerald,Defender,34,179,Thompson-Lewis,22.2
+119,6,Monica Herrera,Forward,19,189,Pennington-Richards,27.2
+120,6,Andrea Jenkins,Forward,24,194,"Banks, Ramirez and Cooley",73.6
+121,6,Hannah Howard,Goalkeeper,31,166,Parrish Group,7.2
+122,6,Mr. John Green,Forward,23,194,Myers Inc,14.9
+123,6,Hannah Hester,Midfielder,31,185,"Baker, Pearson and Johnson",17.3
+124,6,Tammy Salinas,Midfielder,29,189,Spencer-Moore,22.6
+125,6,Cheryl Howard,Forward,27,170,George-Torres,37.9
+126,6,Megan Kramer,Goalkeeper,30,179,Doyle Inc,52.2
+127,6,Joseph Thompson,Goalkeeper,19,180,Barnett Ltd,16.3
+128,6,Benjamin Kemp,Goalkeeper,23,180,Contreras Group,10.5
+129,6,Kyle Adams,Goalkeeper,25,194,Lopez-Odom,56.1
+130,6,Kristy Johnson,Midfielder,24,172,Whitehead Inc,62.3
+131,6,Gregory Cross,Defender,28,171,Carter Inc,46.5
+132,6,Michael Torres,Midfielder,31,190,"Edwards, Williams and Smith",75.3
+133,6,Daniel James,Defender,21,180,Brown-Rodriguez,8.6
+134,6,Ethan Mitchell,Midfielder,22,167,Rice-Stevenson,28.1
+135,6,Leah Mccarthy,Forward,30,169,Allen LLC,40.7
+136,6,Margaret Brown,Midfielder,19,191,Phillips-Rivera,65.9
+137,6,Tara Harvey,Goalkeeper,32,188,Norris Group,51.0
+138,6,Joshua Griffith DDS,Forward,23,192,Levine-Ward,14.5
+139,7,Cameron Huang,Midfielder,34,194,Larson PLC,35.1
+140,7,Tony Bailey,Midfielder,29,180,Bennett Group,66.5
+141,7,Kim Young MD,Goalkeeper,27,193,"Simpson, Bullock and Chan",19.9
+142,7,Mark Ortiz,Forward,31,186,Harmon-Stuart,2.8
+143,7,Christopher Henson,Midfielder,24,196,Holder-Shaw,17.4
+144,7,Russell Duncan,Midfielder,29,182,Russell-Brown,70.5
+145,7,Amanda Johnson,Midfielder,19,198,Jensen-Martinez,75.9
+146,7,Timothy Goodwin,Goalkeeper,26,191,Bruce Inc,39.3
+147,7,Patrick Harrell,Defender,34,196,Castillo-Vasquez,36.1
+148,7,Todd Lewis,Goalkeeper,21,183,Marshall-Reyes,18.1
+149,7,Laurie Clark,Defender,28,188,Washington-Alvarez,38.1
+150,7,Todd Morales,Midfielder,32,186,"Chambers, Leblanc and Cooley",28.5
+151,7,Amanda Cox,Forward,27,184,Johnson LLC,20.5
+152,7,Jamie Green,Goalkeeper,25,185,Ortiz Inc,10.0
+153,7,Patricia Brown,Defender,25,178,Khan Group,59.2
+154,7,Carmen Franklin,Midfielder,35,183,Porter-Smith,78.5
+155,7,Roy Flores,Defender,28,179,Stone-Castillo,29.2
+156,7,Meagan Cowan,Midfielder,19,173,Huffman-Sandoval,22.3
+157,7,Crystal Rodriguez,Goalkeeper,28,173,Roy-Peterson,51.2
+158,7,Linda West,Forward,22,165,Huffman Ltd,46.1
+159,7,Melissa Sampson,Forward,34,193,Cole-Jackson,27.6
+160,7,Grant Short,Goalkeeper,27,195,Young Group,9.6
+161,7,Morgan Shea,Goalkeeper,31,196,Good Group,6.4
+162,8,Haley Richmond,Goalkeeper,23,174,Wilson and Sons,65.0
+163,8,Eric Jensen,Midfielder,21,180,"Hebert, Hawkins and Murray",9.9
+164,8,Edward Mcdonald,Forward,26,198,Gonzales Group,30.7
+165,8,Tanner Brooks,Forward,28,192,"Bruce, Ochoa and Mcclure",24.8
+166,8,Natalie Acevedo,Goalkeeper,22,178,"Jackson, Brooks and Herrera",50.2
+167,8,Ian Garcia,Midfielder,21,175,Reeves Group,19.6
+168,8,Jacob Brown,Goalkeeper,24,165,Saunders-Castro,33.0
+169,8,Shannon Robinson,Forward,28,167,Robinson-Lee,18.9
+170,8,Kenneth Craig,Midfielder,33,169,"Nunez, Lynch and King",55.1
+171,8,Sandra Bradley,Midfielder,25,192,"Buckley, Roth and Smith",9.6
+172,8,Isabella Contreras,Defender,23,182,"Keith, Ortiz and Burton",66.2
+173,8,Carl Jones,Goalkeeper,20,175,Sims and Sons,63.5
+174,8,Craig Kelley,Midfielder,33,172,Schaefer-Rogers,37.8
+175,8,Dr. Mary Gutierrez DVM,Midfielder,31,182,"Garrett, Mcconnell and Smith",40.3
+176,8,Wayne Wilson,Forward,33,170,"Blake, Morris and Diaz",48.0
+177,8,William Barton,Forward,29,181,"Reed, Hall and Griffith",2.6
+178,8,Drew Smith,Defender,19,182,"Green, Kennedy and Perkins",46.3
+179,8,Wendy Calderon,Defender,34,198,"Cook, Harris and Weaver",52.3
+180,8,Glenn Compton,Midfielder,24,192,"Hampton, Brandt and Harris",51.0
+181,8,Colin Taylor,Forward,21,195,"Murillo, Ayala and Hendrix",28.2
+182,8,Kaitlin Alexander,Midfielder,29,171,Garza Ltd,68.7
+183,8,Kimberly Campbell,Midfielder,32,196,Luna-Kim,23.4
+184,8,Joseph Cruz,Forward,20,194,Jones-Howard,7.5
+185,9,Xavier Kirk,Midfielder,29,172,Lewis PLC,77.6
+186,9,Victor Martinez,Forward,35,165,Levy-White,52.8
+187,9,Matthew Guerrero,Forward,32,168,Nelson-Mitchell,15.4
+188,9,Deborah Porter,Midfielder,34,193,Hunt-Stewart,60.9
+189,9,Zachary Garcia,Defender,27,173,Hawkins Ltd,74.2
+190,9,Anthony Smith,Forward,34,172,Jones Ltd,2.8
+191,9,Joseph Curtis,Defender,24,184,Alexander LLC,44.3
+192,9,Ashley Carter,Forward,21,179,"Gutierrez, Farmer and Salinas",79.4
+193,9,Dr. David Brown MD,Goalkeeper,33,172,Ross and Sons,52.0
+194,9,Travis Thompson,Defender,34,183,Rich-Johnson,41.0
+195,9,Michelle Johnson,Midfielder,32,195,Armstrong-Wong,78.4
+196,9,Charlene Cunningham,Defender,33,174,Doyle LLC,31.0
+197,9,James Walker,Defender,21,182,Williamson Ltd,61.9
+198,9,Patrick Hunter,Forward,29,197,Berger LLC,21.7
+199,9,Jason Wilson,Goalkeeper,28,184,Watkins Ltd,67.1
+200,9,Clayton Newton,Forward,23,193,Green Ltd,43.3
+201,9,Kathleen Miller,Midfielder,29,189,Smith-Torres,36.7
+202,9,Jessica Bean,Midfielder,25,180,Barrett Group,46.0
+203,9,Mr. David Marshall,Defender,32,167,Montes LLC,25.8
+204,9,Justin Jones,Forward,31,189,"Allison, Williams and Rodriguez",79.1
+205,9,Faith Reynolds,Defender,34,167,Bennett-Reynolds,10.5
+206,9,Sara Estrada,Midfielder,22,193,"Benitez, Baker and Smith",8.4
+207,9,Deborah Mack,Forward,19,174,Cruz Ltd,33.1
+208,10,Joseph Kline,Defender,21,195,Craig and Sons,62.6
+209,10,Courtney Chambers,Midfielder,29,190,Rodriguez Ltd,52.2
+210,10,Michael Garcia,Midfielder,31,185,Patterson LLC,50.3
+211,10,Angela Hamilton,Forward,20,169,"Ramirez, Pacheco and Nash",19.2
+212,10,Amanda Ryan,Midfielder,26,170,Montgomery Inc,35.0
+213,10,Brandi Wright,Goalkeeper,22,193,Wiggins and Sons,13.7
+214,10,Wanda Braun,Midfielder,19,167,Norton Group,26.3
+215,10,Jeffrey Lopez,Goalkeeper,28,187,Williams-Patterson,30.3
+216,10,Peter Richardson,Defender,26,198,Gilbert PLC,33.3
+217,10,Carla Murphy,Defender,24,176,Smith-Mason,6.8
+218,10,Frank Henderson,Forward,26,196,Pierce-Montgomery,73.1
+219,10,Emily Wiggins,Defender,26,194,Tucker-Martinez,51.2
+220,10,Oscar Williams,Forward,27,165,Kelly PLC,72.0
+221,10,Joseph Montoya,Forward,28,175,"Miller, Sanders and Harding",6.4
+222,10,Stephen Alexander,Midfielder,28,192,"Romero, Neal and Snow",55.4
+223,10,Paul Steele,Forward,28,177,"Morse, Sanders and Boone",80.0
+224,10,Sean Lopez,Forward,22,180,Williams-Stevenson,30.8
+225,10,Michael Mills,Midfielder,28,183,Lopez Group,2.2
+226,10,Rachel Shaw,Forward,27,165,Walker-Maldonado,45.5
+227,10,William Watson,Goalkeeper,34,183,Martinez Ltd,62.2
+228,10,James Morales,Defender,30,179,Dominguez-Kelley,51.1
+229,10,Melinda Martin,Midfielder,23,171,Stone Group,72.3
+230,10,Jennifer Howard,Goalkeeper,28,193,Stewart-Alexander,3.2
+231,11,Scott Jones,Midfielder,23,170,"Cabrera, Watson and Pearson",72.8
+232,11,Felicia White,Midfielder,32,176,Hull-Torres,16.5
+233,11,William Aguirre,Midfielder,35,197,Henderson-Peters,73.1
+234,11,Andrea Jones,Defender,27,195,Collier Group,77.4
+235,11,Katie Hall,Midfielder,29,172,"Walker, Pierce and Rowe",37.7
+236,11,Carrie Morgan,Goalkeeper,23,179,Baker Group,68.9
+237,11,William Mann,Forward,30,170,Chang-Cox,63.4
+238,11,Jessica Walker,Goalkeeper,27,172,Schneider-Morris,36.7
+239,11,Dustin Russell,Midfielder,31,188,Mitchell-Dunn,9.1
+240,11,Margaret Nichols,Defender,34,166,Sanders-Santos,49.8
+241,11,Tasha Erickson,Midfielder,26,169,Burns and Sons,51.0
+242,11,Heather Wall,Forward,28,191,"Petersen, Marquez and Jackson",9.8
+243,11,Mark Hansen,Goalkeeper,20,184,"Ware, Garza and Green",79.7
+244,11,Sean White,Goalkeeper,22,180,Morales Ltd,71.0
+245,11,Deanna Cabrera,Defender,31,194,Conner-Torres,30.0
+246,11,Rebecca Carpenter,Forward,23,191,Mitchell-Daniel,52.6
+247,11,Daniel Peterson,Forward,32,182,Watson Inc,3.1
+248,11,Elizabeth Porter,Midfielder,25,193,"Jones, Moore and Mitchell",35.9
+249,11,Christine Watts,Defender,30,171,"Mayer, Browning and Rosario",78.5
+250,11,Joshua Henson IV,Midfielder,30,168,Walker-Holt,32.2
+251,11,Debra King,Defender,22,194,Thomas Group,7.8
+252,11,Timothy Miller,Defender,19,168,"Walker, Andrade and Wilson",63.1
+253,11,Michael Johnson,Defender,23,178,Riddle-Strong,6.0
+254,12,Juan Marshall,Defender,25,179,Crane PLC,26.6
+255,12,David Miller,Defender,19,182,Hall-Underwood,68.7
+256,12,Joshua Stone,Defender,23,181,Foster-Houston,64.0
+257,12,Jeremy Norton,Goalkeeper,19,173,"Wood, Jones and Bell",1.7
+258,12,Sara Bender MD,Defender,29,166,Choi-Fowler,14.4
+259,12,Heather Perkins,Goalkeeper,23,191,Johnson Ltd,42.3
+260,12,Charles Johnson,Goalkeeper,34,193,"Matthews, Beck and Foster",62.4
+261,12,Christopher West,Goalkeeper,33,197,Cummings-Ross,18.1
+262,12,Judy Wong,Goalkeeper,35,184,Valdez-Williams,36.9
+263,12,Melissa Lee,Goalkeeper,20,195,Allen-Ruiz,67.9
+264,12,Suzanne Shaw,Forward,22,196,Wilson Ltd,57.1
+265,12,Laurie Lawrence,Forward,21,170,Gray LLC,26.1
+266,12,Debra Barajas,Defender,21,173,"Hurley, Hamilton and Jones",22.4
+267,12,Anthony Schneider,Midfielder,31,198,Munoz-Miller,23.9
+268,12,Donald Archer,Forward,22,172,Hayes Group,68.3
+269,12,Miranda Edwards,Defender,32,193,Marshall Inc,71.1
+270,12,Jessica Nguyen,Forward,29,194,Serrano Ltd,32.2
+271,12,Michael Lopez,Goalkeeper,29,192,"Wong, Tran and Ward",25.3
+272,12,Allison Walton,Midfielder,30,174,"Adams, Barker and Cook",55.1
+273,12,Alison Walker DVM,Forward,21,170,"Shields, Davis and Cantu",66.6
+274,12,Stephen Dougherty,Goalkeeper,32,171,Ford LLC,59.7
+275,12,Tabitha Reynolds,Midfielder,23,168,Vasquez Ltd,47.1
+276,12,Mark Chambers,Midfielder,22,191,Joyce-Hernandez,28.6
+277,13,David Clark,Forward,20,183,Gentry PLC,48.2
+278,13,Autumn Mills,Midfielder,22,197,"Cruz, Garcia and Carter",17.4
+279,13,Paul Crawford,Forward,26,171,Chapman-Carter,28.3
+280,13,Jessica Browning,Midfielder,22,182,"Marshall, Holt and Roy",46.1
+281,13,Lauren Barnes,Forward,19,182,Holder-Thompson,2.8
+282,13,Jerry Page,Midfielder,28,186,"Hooper, Sullivan and Sandoval",28.4
+283,13,Rachel Mendez,Defender,23,190,Wilson-Torres,6.0
+284,13,Robert Henson,Goalkeeper,21,198,"Johnson, Larson and White",17.6
+285,13,Colleen Norris,Forward,33,186,Snyder Ltd,13.0
+286,13,Gregory Davis,Midfielder,29,170,"Kelley, Murphy and Mccall",70.7
+287,13,Matthew Robertson Jr.,Defender,24,168,"Hill, Kelley and Page",54.1
+288,13,Melissa Holder,Midfielder,33,192,"Rubio, Hardy and Henderson",39.1
+289,13,Maria Raymond,Forward,32,182,Greene PLC,17.6
+290,13,Lauren Mclaughlin,Goalkeeper,30,192,Santana-Brady,9.3
+291,13,Jeremy Green,Forward,35,184,Espinoza-Smith,4.1
+292,13,David Rodriguez,Forward,20,165,Willis PLC,16.8
+293,13,Alejandro Dominguez,Defender,23,181,Clark LLC,23.5
+294,13,Dr. Jeremy Rosario DVM,Goalkeeper,19,196,"Moss, Jensen and Dennis",59.9
+295,13,Julie Carson,Defender,23,189,"Porter, Montgomery and Lester",42.8
+296,13,Tammy Martinez,Defender,35,187,Wilson-Townsend,6.2
+297,13,Nicole Miranda,Goalkeeper,32,166,"Day, Hamilton and Harding",37.1
+298,13,William Mccormick,Goalkeeper,29,192,Jones-Dixon,46.1
+299,13,Laurie Cannon,Forward,28,172,"Jackson, Aguilar and Sparks",32.7
+300,14,Denise Martin,Midfielder,24,194,Cox PLC,66.6
+301,14,Michael Miller,Midfielder,21,192,Nielsen Ltd,67.6
+302,14,Jason Ortiz,Defender,32,190,"Taylor, Nguyen and Hart",42.2
+303,14,Carmen Peck,Forward,28,186,Turner-Rodriguez,18.1
+304,14,James Kemp,Defender,21,197,"Rivera, Adams and Valdez",50.8
+305,14,Paul Moran,Defender,30,187,Maxwell and Sons,58.3
+306,14,Jared Ford DVM,Defender,26,171,James-Johnson,12.1
+307,14,Derrick Mcconnell,Defender,24,174,"Davis, Obrien and Porter",60.9
+308,14,Jennifer Kelly,Goalkeeper,24,196,Palmer LLC,37.4
+309,14,Wesley Brown,Forward,29,185,Mosley-Reeves,12.5
+310,14,James Lane,Goalkeeper,34,193,Norris-Hernandez,50.7
+311,14,Brian White,Midfielder,20,187,Mason-Taylor,40.8
+312,14,Billy Powers,Midfielder,33,193,Haynes-Ward,3.5
+313,14,Christopher Rivera,Midfielder,28,169,"Weaver, Reese and Jones",51.8
+314,14,Karen Martinez,Goalkeeper,35,189,"Wilcox, Cooper and Hart",37.3
+315,14,Heather Reyes,Goalkeeper,33,177,Logan and Sons,26.1
+316,14,Melanie Mcgee,Forward,35,174,Kaiser-Alexander,76.6
+317,14,Andrea Colon,Forward,22,186,"Fisher, Lewis and Mathis",78.6
+318,14,Alexander Meyer,Goalkeeper,35,176,"Hodge, Miller and Daniels",3.6
+319,14,Ryan Smith,Forward,33,198,Hopkins-Hart,42.1
+320,14,Kerri Lopez,Defender,30,188,Moyer PLC,73.5
+321,14,Dominique Gilbert,Forward,32,186,Hernandez-Johnson,54.5
+322,14,Mr. Keith Dillon,Goalkeeper,29,169,Mathews Ltd,26.7
+323,15,Lawrence Snyder,Forward,28,181,Johnson Group,58.0
+324,15,Shawn Salinas,Defender,29,170,Webb Ltd,46.8
+325,15,Kenneth Riley,Defender,30,184,"Phelps, Lopez and Fernandez",77.4
+326,15,Amy Pugh,Forward,23,170,Torres-Miller,25.1
+327,15,Andrea Ellis,Forward,29,173,Collier-Osborn,53.8
+328,15,Michael Pierce,Goalkeeper,32,197,Fuller Inc,29.3
+329,15,Mario Kelley DDS,Midfielder,28,176,"Nelson, Smith and Stevens",76.1
+330,15,Kyle Parks,Midfielder,34,177,Henry Group,18.5
+331,15,Jessica Martin,Defender,23,169,"Mahoney, Reynolds and Washington",24.0
+332,15,Andrea Greene,Goalkeeper,35,198,Vazquez-Johnson,3.5
+333,15,Diane Schmidt,Midfielder,23,189,Holt-Delacruz,12.8
+334,15,Adam Butler,Defender,24,193,"Johnston, Johnson and Mullen",4.0
+335,15,John Lara,Midfielder,26,193,Potter-Murray,49.0
+336,15,Cody Cooley,Forward,26,180,Stevenson Inc,25.1
+337,15,Eric Romero,Forward,25,188,"Ross, Welch and Benjamin",54.4
+338,15,Luke Jacobs,Forward,33,183,Cherry Inc,62.4
+339,15,Luis Higgins,Forward,24,177,Middleton-Brewer,64.2
+340,15,Charles Campbell,Defender,27,168,Hernandez-Lee,51.5
+341,15,Jeanette Phillips,Midfielder,22,198,Long-Maldonado,68.2
+342,15,James Ramos,Midfielder,21,175,"Shannon, Perez and Wood",22.2
+343,15,Garrett Taylor,Defender,32,170,Martinez-Murphy,75.7
+344,15,Melissa Harris,Defender,33,187,Harrell-Warner,74.5
+345,15,Michael Powell,Forward,20,190,"Mccall, Ryan and Palmer",40.4
+346,16,Ann Navarro,Defender,31,170,Alexander-Hinton,30.3
+347,16,Dustin Parsons,Goalkeeper,29,171,Wright PLC,67.2
+348,16,Kathryn Zuniga,Midfielder,23,173,Porter-Ramirez,3.5
+349,16,Carlos Woods,Forward,23,195,Hall Inc,36.2
+350,16,Jon Rogers,Goalkeeper,21,166,Miller-Miller,20.8
+351,16,Amy Hutchinson,Defender,35,192,"Castro, Martin and Dawson",9.3
+352,16,Gloria Barnett,Midfielder,26,184,Webb-Jenkins,10.2
+353,16,Hannah Perez,Defender,32,194,"Landry, Chambers and Campbell",5.5
+354,16,Laura Le,Forward,19,197,Diaz Group,46.2
+355,16,Christopher Graham,Defender,28,192,Aguilar-Jordan,0.6
+356,16,Amanda Cooper,Midfielder,26,191,Campos and Sons,15.4
+357,16,Robin Bush,Goalkeeper,35,188,Butler-Martin,5.9
+358,16,Jane Velazquez,Goalkeeper,31,195,Blevins PLC,4.0
+359,16,Elaine Brown,Forward,30,181,Horn-Krueger,59.9
+360,16,Kathleen Herring,Midfielder,21,187,Smith LLC,19.7
+361,16,Mark Kennedy,Goalkeeper,29,173,Wells-Braun,4.0
+362,16,Troy Olson,Midfielder,24,194,Nelson PLC,78.5
+363,16,Daniel Werner,Forward,24,173,Bush-Benton,5.5
+364,16,Lisa Robles,Forward,20,183,Rice-Fernandez,16.5
+365,16,Scott Jacobs,Defender,20,185,"Bradley, Cummings and Lee",74.7
+366,16,Christopher Klein,Forward,34,181,Walker LLC,3.4
+367,16,Samantha Shelton,Defender,28,187,"Miranda, Nguyen and Holt",69.0
+368,16,Justin Long,Goalkeeper,29,182,"Leon, Soto and Jackson",10.4
+369,17,Teresa Murphy MD,Midfielder,32,190,"Hughes, Bell and Martinez",59.6
+370,17,Jason Martinez,Forward,29,176,"Barnes, Lewis and Gross",39.9
+371,17,Thomas Clayton,Forward,30,198,"Davis, Salas and Parker",21.7
+372,17,Lindsay Edwards,Goalkeeper,32,170,Ball PLC,34.7
+373,17,Zachary Clarke,Defender,28,185,Wilcox-Reeves,8.7
+374,17,Rebecca Johnson,Midfielder,28,184,Pineda-Sanders,36.0
+375,17,Alfred Franco,Forward,24,193,Sullivan Ltd,28.4
+376,17,Matthew Robertson,Goalkeeper,30,192,Nelson-Walls,22.3
+377,17,Sara Brown,Goalkeeper,21,190,Russell-Johnson,29.4
+378,17,Nicole Noble,Defender,19,174,"Peters, Best and Patel",68.0
+379,17,Michelle Rogers,Forward,20,173,Charles-Carey,5.8
+380,17,Derek Harris,Midfielder,30,189,Green-Fuller,76.0
+381,17,Daniel Coleman,Goalkeeper,23,193,Villa PLC,75.9
+382,17,David Lee,Midfielder,33,169,Mclean-Park,46.1
+383,17,Robert May,Midfielder,31,185,"Turner, Young and Smith",52.1
+384,17,Kathryn Lopez,Defender,22,166,"Nichols, Brown and Johnson",59.0
+385,17,Andrea Park,Forward,35,189,Love-Simmons,73.1
+386,17,David Gould,Goalkeeper,27,181,Dean-Yoder,56.5
+387,17,John Cline,Defender,28,196,Jones-Williams,16.4
+388,17,Mr. Mark Gardner,Defender,21,193,"Quinn, Miller and Oliver",14.2
+389,17,Matthew Wood,Forward,21,185,Andrews Ltd,53.6
+390,17,Morgan Tapia,Goalkeeper,28,184,Meza-Davis,68.2
+391,17,Stephanie Zhang,Defender,30,197,Ryan-Anderson,18.3
+392,18,Janice Newman,Defender,23,180,"Ali, Adams and Brennan",63.3
+393,18,Debra Patton,Goalkeeper,30,188,Myers-Johnson,37.7
+394,18,Priscilla Olsen,Defender,21,169,Williams Group,25.1
+395,18,Joe West,Forward,35,191,Davidson-West,61.6
+396,18,Lori Hernandez,Goalkeeper,23,185,"Castillo, Sanchez and Cruz",51.6
+397,18,Patrick Jackson,Forward,33,198,Chavez-Reed,27.9
+398,18,Mark Wright,Defender,23,192,Nelson Group,40.5
+399,18,David Hanson,Goalkeeper,22,198,"Cobb, Kirby and Robertson",12.7
+400,18,Olivia Baxter,Defender,24,185,Johnson-Young,74.8
+401,18,Katelyn Hernandez,Defender,30,198,Contreras LLC,71.6
+402,18,Joseph Becker,Goalkeeper,27,177,Cox-Nelson,51.0
+403,18,Amy White,Midfielder,23,184,Davis PLC,49.3
+404,18,Kenneth Acosta,Goalkeeper,35,175,"Rhodes, Graham and Smith",47.5
+405,18,Michelle Palmer,Defender,24,186,Myers and Sons,67.5
+406,18,Melissa Stevens,Goalkeeper,19,170,Collins-Thomas,4.1
+407,18,Dr. Cynthia Barton,Midfielder,25,191,Hinton-Johnson,49.6
+408,18,Sean Olson,Goalkeeper,34,183,"Smith, Ford and Martinez",51.5
+409,18,Amy Dunn,Midfielder,34,180,Smith-Sanchez,64.5
+410,18,Lindsey Taylor,Forward,28,194,Dixon PLC,6.3
+411,18,James Harvey,Goalkeeper,24,193,Black LLC,33.5
+412,18,Amber Morris,Forward,25,186,Gallegos PLC,48.7
+413,18,Kristen Lawrence,Midfielder,29,187,Conrad Group,78.0
+414,18,Christopher Smith,Defender,30,197,"Schwartz, Morgan and Wise",45.2
+415,19,Jasmine Allen,Midfielder,26,194,Sanders-Robinson,10.2
+416,19,Jonathan Davis,Forward,26,174,Larson-Brown,8.2
+417,19,Nicholas Brown,Midfielder,31,191,Clark LLC,20.2
+418,19,Suzanne Garcia,Defender,29,185,Johnson-Williams,15.6
+419,19,Tamara Day,Defender,34,197,Henry-Walsh,37.6
+420,19,Drew Price,Midfielder,34,166,"Perry, Beasley and Richard",7.7
+421,19,Melissa Johnson,Forward,35,194,"Jackson, Wright and Johnson",77.4
+422,19,William Adams,Defender,30,168,Blackburn and Sons,4.5
+423,19,Jennifer Vasquez,Forward,34,183,"Lewis, Mcknight and Miller",43.2
+424,19,Margaret Schultz,Goalkeeper,32,173,Delgado Group,70.7
+425,19,Ryan Martinez,Midfielder,31,188,Clark and Sons,4.1
+426,19,Linda Frye,Goalkeeper,25,188,Murray-Williams,44.5
+427,19,Jonathan Martin,Goalkeeper,31,197,Patterson LLC,36.3
+428,19,Jessica Stewart,Midfielder,22,173,"Greene, Griffin and Collins",78.0
+429,19,John Jackson,Forward,30,186,Johnson and Sons,44.8
+430,19,Rebecca Edwards,Midfielder,23,177,Martinez-Woods,48.4
+431,19,Shelby Hall,Forward,35,167,"Peters, Collier and Oliver",4.1
+432,19,Angela Guerrero,Defender,29,195,Ross LLC,41.8
+433,19,Rachel Ramirez,Defender,35,173,Wagner-Houston,26.6
+434,19,Cindy Johnson,Midfielder,24,190,Zimmerman PLC,79.3
+435,19,Renee Gilmore,Midfielder,29,197,Carter-Mendez,66.3
+436,19,William White,Forward,28,195,Powell LLC,65.4
+437,19,Robert Calderon,Midfielder,29,172,"Barnett, Wheeler and Smith",78.4
+438,20,Kerry Anderson,Midfielder,19,195,Young-Jones,21.6
+439,20,Ryan Benson,Defender,20,195,"Mcclure, Reynolds and Green",14.1
+440,20,Rebecca Keith,Forward,23,180,Walton-Williamson,3.0
+441,20,Gwendolyn Flores,Goalkeeper,25,166,"Henry, Morris and Burke",35.6
+442,20,Kathy Austin,Forward,23,191,Weiss-Hunt,55.4
+443,20,Courtney Kelly MD,Forward,35,195,Price-Williams,69.9
+444,20,Danielle Mays,Goalkeeper,23,198,Luna LLC,17.0
+445,20,Brandon Olsen,Midfielder,34,198,Taylor and Sons,30.5
+446,20,Edward Strickland,Defender,33,186,Gonzalez-Cantu,43.9
+447,20,Ashley Davidson,Midfielder,34,177,Banks Group,76.6
+448,20,Scott Owens,Midfielder,28,179,"Henderson, Hamilton and Powers",75.3
+449,20,Michael Sullivan,Midfielder,28,178,Hill-Haney,55.4
+450,20,Suzanne Atkinson MD,Forward,29,195,"Gutierrez, Walker and Barajas",28.2
+451,20,Amber Miller,Midfielder,28,172,Cook PLC,46.1
+452,20,Danielle Blake,Forward,31,187,Kim-Garcia,76.4
+453,20,Carol Dean,Defender,28,167,Wade Group,23.4
+454,20,Alexis Smith,Goalkeeper,30,193,Lindsey-Miller,52.6
+455,20,David Hudson,Forward,25,177,"Cruz, Bryant and Hudson",66.3
+456,20,Sue Brown,Midfielder,27,173,"Frank, Boyd and Cruz",9.2
+457,20,Andrew Hernandez,Defender,26,168,White-Bell,53.8
+458,20,Rodney Peters,Defender,26,168,Stewart-Nelson,8.5
+459,20,John Johnson,Midfielder,34,171,Hansen-Martinez,54.7
+460,20,Jennifer Watts,Defender,19,175,Lewis-Bryant,32.8
+461,21,Sara Morrow,Forward,34,177,Anderson LLC,60.6
+462,21,Emily Cruz,Midfielder,29,183,Taylor Group,51.8
+463,21,Corey Garcia,Goalkeeper,26,167,"Macias, Little and Gray",73.1
+464,21,Manuel Walker,Defender,32,176,"Kelly, Mcclain and Sanchez",74.7
+465,21,Amanda Small,Goalkeeper,31,196,Mcbride and Sons,15.3
+466,21,Susan Fleming,Midfielder,20,165,Brooks and Sons,24.2
+467,21,Elizabeth Choi,Goalkeeper,29,183,Hansen and Sons,36.6
+468,21,Natasha Diaz,Forward,23,197,"Mills, Martinez and Gaines",37.7
+469,21,Walter Walsh,Defender,22,186,Sharp-Thomas,13.4
+470,21,Kayla Brady,Forward,27,176,Rose-Garcia,1.6
+471,21,Sonya Schmidt,Midfielder,28,177,"Taylor, Velazquez and Whitney",14.5
+472,21,Erika Huang,Forward,32,197,"Wells, Mclaughlin and Singleton",26.6
+473,21,Karen Nguyen,Forward,22,176,James Ltd,78.5
+474,21,Brian Jordan,Forward,29,180,Harmon Group,1.0
+475,21,Michael Church,Forward,26,193,"Bowman, Fernandez and Steele",60.4
+476,21,Nicholas Warren,Midfielder,28,165,"Long, Horton and Bailey",21.3
+477,21,Andrew Cooper,Midfielder,26,168,"Klein, Horn and Bentley",53.6
+478,21,Joseph Conway,Forward,28,175,Galloway-Allen,32.7
+479,21,Alexandra Merritt,Midfielder,22,183,Allen Group,29.7
+480,21,Jennifer Schultz,Defender,26,173,Baird PLC,38.5
+481,21,Kayla Mcgee,Forward,30,191,"Myers, Chandler and Taylor",56.3
+482,21,Gregory Dawson,Forward,25,180,Richardson and Sons,54.6
+483,21,Jennifer Melendez,Goalkeeper,35,193,"Williams, Mason and Wilson",42.5
+484,22,Jeremy Evans,Midfielder,21,172,"Hamilton, Snyder and Kane",5.4
+485,22,Mark Hartman,Defender,23,175,Shields PLC,26.6
+486,22,John Thomas,Forward,22,178,Huffman LLC,57.5
+487,22,Tracy Berger,Forward,21,197,Hughes-Ryan,35.9
+488,22,Sean Gomez,Goalkeeper,33,173,Fernandez Ltd,41.3
+489,22,Timothy Graves,Forward,20,194,Brown PLC,54.0
+490,22,Kathryn Fry,Midfielder,19,190,Sanders LLC,20.7
+491,22,Jessica Johnson,Goalkeeper,25,169,Banks PLC,4.1
+492,22,Carlos Durham,Midfielder,21,168,Lowe-Good,74.8
+493,22,Heather Snow,Goalkeeper,34,167,Brooks-Chapman,23.3
+494,22,Christopher Walton,Defender,23,191,Hamilton-Adkins,30.3
+495,22,John Waller,Forward,33,189,Rose and Sons,30.4
+496,22,Rachel Carpenter,Defender,30,172,Nicholson Group,14.7
+497,22,Marcus Perry,Forward,35,173,Hall Inc,58.4
+498,22,Leah Garcia,Defender,19,166,Wilcox-Stevens,78.3
+499,22,James Warner,Forward,32,189,Pena Inc,66.0
+500,22,Cheryl Ferguson,Defender,33,187,Adams PLC,12.8
+501,22,Claire Snyder,Defender,22,167,Scott-Howe,64.9
+502,22,Matthew Davis,Forward,19,180,Mcconnell-Wells,16.9
+503,22,Jessica Barajas,Goalkeeper,20,193,Lopez-Faulkner,48.0
+504,22,Melissa Palmer,Goalkeeper,26,167,Miller PLC,32.5
+505,22,Michael Reynolds,Defender,25,168,"Johnston, Burns and Meyer",11.6
+506,22,Dominique Simpson DDS,Midfielder,26,185,Sullivan and Sons,46.4
+507,23,Joseph Sandoval,Midfielder,26,184,Lawrence and Sons,70.2
+508,23,Thomas Thompson PhD,Defender,32,184,Gonzales Inc,22.4
+509,23,Carlos Hernandez,Defender,32,196,Johnson Inc,4.2
+510,23,Patty Smith,Midfielder,31,198,Fowler-Howard,25.8
+511,23,Paula Knight,Forward,32,174,Knapp-Owens,24.3
+512,23,Kim Snyder,Defender,34,180,Carter and Sons,68.0
+513,23,Martha Mcdonald,Midfielder,23,194,"Mckee, Fernandez and Johnson",73.2
+514,23,Laura Edwards,Forward,32,198,Fox LLC,11.2
+515,23,Matthew Stokes,Defender,27,178,"Guzman, Mcknight and Williamson",26.8
+516,23,Robert Gill,Goalkeeper,33,188,Roberts LLC,7.9
+517,23,Janet Pennington DDS,Defender,20,182,Martin Ltd,30.5
+518,23,Jasmine Adams,Goalkeeper,21,177,"Moore, Davis and Robbins",64.5
+519,23,Christina Wolf,Defender,34,178,Lowe LLC,69.6
+520,23,Angela Franklin,Midfielder,28,165,Little and Sons,17.3
+521,23,Christine Taylor,Defender,22,195,Saunders and Sons,73.2
+522,23,Nancy Schaefer,Defender,31,180,"Vasquez, Miller and Barker",44.4
+523,23,Ashley Soto,Midfielder,31,194,Watts-Harris,42.9
+524,23,Michael Tucker,Midfielder,28,181,Yang-Yoder,29.1
+525,23,Wayne Weber,Forward,33,171,Valencia-Wolf,64.3
+526,23,Virginia Smith,Forward,29,178,Henry PLC,30.0
+527,23,Sarah Harper,Forward,20,179,"Williams, Knight and Matthews",59.4
+528,23,Robert Roth,Goalkeeper,27,191,Taylor LLC,24.0
+529,23,Warren Becker,Defender,29,179,Davis-Smith,30.7
+530,24,Miranda Baker,Defender,34,186,Gibson-Byrd,21.0
+531,24,Tina Adams,Forward,34,194,Thomas Group,13.9
+532,24,Cindy Bailey,Midfielder,24,173,George-Hurley,57.8
+533,24,Kenneth Smith,Forward,24,168,Vasquez Group,42.2
+534,24,John Castro,Goalkeeper,20,165,Wright LLC,33.3
+535,24,Joshua Morris,Defender,21,174,Baldwin Ltd,1.2
+536,24,Taylor Melendez,Forward,30,168,Hawkins Ltd,49.6
+537,24,Alyssa Jones,Forward,34,166,Jones Inc,1.0
+538,24,Jay Bartlett,Forward,19,166,"Wood, Wolfe and Spence",42.6
+539,24,Dawn Brown,Midfielder,28,166,Fisher Inc,40.4
+540,24,Evelyn Hernandez,Forward,24,171,"Lane, Winters and Nolan",73.5
+541,24,Alyssa Smith,Defender,26,177,"Fowler, Hill and Osborn",49.8
+542,24,Matthew Whitney,Midfielder,30,182,Stout PLC,63.7
+543,24,Daniel Butler,Goalkeeper,30,190,Edwards PLC,37.0
+544,24,Brianna Page,Defender,26,184,Barajas LLC,54.9
+545,24,Robert Wheeler,Goalkeeper,20,170,Meadows PLC,32.7
+546,24,Shawn Walton,Forward,34,168,Larsen Group,51.1
+547,24,Ashley Conley,Defender,21,196,Rodriguez Group,67.7
+548,24,Zachary Willis,Midfielder,22,198,Kelly Ltd,73.6
+549,24,Dylan Phillips,Defender,25,195,Taylor-Young,22.1
+550,24,Dana Smith,Goalkeeper,27,167,Levy-King,14.8
+551,24,Thomas Ruiz,Midfielder,19,178,"Mitchell, Peters and Mckee",47.2
+552,24,John Compton,Forward,21,184,"Davis, Campbell and Rich",13.4

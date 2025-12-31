@@ -1,0 +1,44 @@
+version: 2
+
+sources:
+  - name: can2025_raw
+    description: Raw CAN 2025 tournament data loaded from GCS
+    database: artefactpipeline  # Replace with your project ID
+    schema: can2025_raw
+    tables:
+      - name: teams
+        description: National teams participating in CAN 2025
+        columns:
+          - name: team_id
+            description: Unique identifier for each team
+            tests:
+              - unique
+              - not_null
+      
+      - name: players
+        description: Players registered for the tournament
+        columns:
+          - name: player_id
+            tests:
+              - unique
+              - not_null
+          - name: team_id
+            tests:
+              - not_null
+      
+      - name: stadiums
+        description: Stadiums hosting CAN 2025 matches
+      
+      - name: matches
+        description: All matches in the tournament
+        columns:
+          - name: match_id
+            tests:
+              - unique
+              - not_null
+      
+      - name: match_events
+        description: Events that occurred during matches (goals, cards)
+      
+      - name: ticket_sales
+        description: Ticket sales and revenue data
