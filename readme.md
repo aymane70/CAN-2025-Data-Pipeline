@@ -1459,15 +1459,8 @@ jobs:
 
 ---
 
-## 📞 Support & Contact
 
-### Get Help
 
-- 📖 **Documentation**: Check this README first
-- 🐛 **Bug Reports**: [Open an issue](https://github.com/yourusername/can2025_pipeline/issues)
-- 💡 **Feature Requests**: [Start a discussion](https://github.com/yourusername/can2025_pipeline/discussions)
-- 📧 **Email**: data-team@example.com
-- 💬 **Slack**: Join our [community channel](#)
 
 ### Project Maintainers
 
