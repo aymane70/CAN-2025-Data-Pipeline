@@ -10,6 +10,9 @@ from google.cloud import storage
 from google.oauth2 import service_account
 from datetime import datetime
 
+from dotenv import load_dotenv
+
+load_dotenv()
 
 
 os.makedirs('logs', exist_ok=True)

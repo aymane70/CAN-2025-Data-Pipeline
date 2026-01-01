@@ -10,6 +10,9 @@ from datetime import datetime
 from google.cloud import bigquery
 from google.cloud.exceptions import NotFound
 from google.oauth2 import service_account
+from dotenv import load_dotenv
+
+load_dotenv()
 
 
 os.makedirs('logs', exist_ok=True)
