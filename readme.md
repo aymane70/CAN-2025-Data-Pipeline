@@ -84,118 +84,9 @@ The **CAN 2025 Data Pipeline** is a production-ready ELT (Extract, Load, Transfo
 
 ## 🏗️ Architecture
 
-```
-┌─────────────────────────────────────────────────────────────────────────┐
-│                           CAN 2025 DATA PIPELINE                         │
-└─────────────────────────────────────────────────────────────────────────┘
+![Architecture Diagram](./screenshots/architecture.png)
 
-┌──────────────┐
-│   PYTHON     │  Step 1: Data Generation
-│  Faker Lib   │  ────────────────────────
-│              │  • Generate fake tournament data
-│  Generated   │  • 6 CSV files created locally
-│    Data      │  • Teams, Players, Matches, etc.
-└──────┬───────┘
-       │
-       │ 1_generate_data.py
-       ▼
-┌──────────────────────────────────────────────────────────────┐
-│                     LOCAL FILESYSTEM                         │
-│  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐         │
-│  │  teams.csv  │  │players.csv  │  │matches.csv  │  + 3 more│
-│  └─────────────┘  └─────────────┘  └─────────────┘         │
-└──────────────────────────┬───────────────────────────────────┘
-                           │
-                           │ 2_load_to_gcs.py
-                           ▼
-┌──────────────────────────────────────────────────────────────┐
-│              GOOGLE CLOUD STORAGE (GCS)                      │
-│  ┌───────────────────────────────────────────────────────┐  │
-│  │  gs://can2025-data-bucket/raw_data/                   │  │
-│  │  ├── teams.csv                                         │  │
-│  │  ├── players.csv                                       │  │
-│  │  ├── stadiums.csv                                      │  │
-│  │  ├── matches.csv                                       │  │
-│  │  ├── match_events.csv                                  │  │
-│  │  └── ticket_sales.csv                                  │  │
-│  └───────────────────────────────────────────────────────┘  │
-└──────────────────────────┬───────────────────────────────────┘
-                           │
-                           │ 3_load_to_bigquery.py
-                           ▼
-┌──────────────────────────────────────────────────────────────┐
-│                    BIGQUERY - RAW LAYER                      │
-│              Dataset: can2025_raw                            │
-│  ┌────────────────────────────────────────────────────────┐ │
-│  │  Tables (6):                                            │ │
-│  │  • teams (24 rows)                                      │ │
-│  │  • players (552 rows)                                   │ │
-│  │  • stadiums (6 rows)                                    │ │
-│  │  • matches (~62 rows)                                   │ │
-│  │  • match_events (~500 rows)                             │ │
-│  │  • ticket_sales (~248 rows)                             │ │
-│  └────────────────────────────────────────────────────────┘ │
-└──────────────────────────┬───────────────────────────────────┘
-                           │
-                           │ dbt run
-                           ▼
-┌──────────────────────────────────────────────────────────────┐
-│                DBT TRANSFORMATION LAYERS                     │
-│                                                              │
-│  ┌──────────────────────────────────────────────────────┐  │
-│  │  STAGING LAYER (Views)                               │  │
-│  │  • stg_teams                                         │  │
-│  │  • stg_players (+ age categories)                   │  │
-│  │  • stg_matches (+ calculated fields)                │  │
-│  │  • stg_match_events (+ period classification)       │  │
-│  │  • stg_ticket_sales (+ revenue calcs)               │  │
-│  └──────────────────────────────────────────────────────┘  │
-│                           │                                  │
-│                           ▼                                  │
-│  ┌──────────────────────────────────────────────────────┐  │
-│  │  INTERMEDIATE LAYER (Views)                          │  │
-│  │  • int_team_performance                              │  │
-│  │  • int_player_statistics                             │  │
-│  │  • int_match_intensity                               │  │
-│  │  • int_revenue_analysis                              │  │
-│  └──────────────────────────────────────────────────────┘  │
-│                           │                                  │
-│                           ▼                                  │
-│  ┌──────────────────────────────────────────────────────┐  │
-│  │  MARTS LAYER (Tables) - Analytics Ready              │  │
-│  │  • mart_team_standings                               │  │
-│  │  • mart_top_scorers                                  │  │
-│  │  • mart_stadium_performance                          │  │
-│  │  • mart_match_calendar                               │  │
-│  │  • mart_financial_summary                            │  │
-│  └──────────────────────────────────────────────────────┘  │
-└──────────────────────────┬───────────────────────────────────┘
-                           │
-                           ▼
-┌──────────────────────────────────────────────────────────────┐
-│               BIGQUERY - TRANSFORMED LAYER                   │
-│           Dataset: can2025_transformed                       │
-│  ┌────────────────────────────────────────────────────────┐ │
-│  │  Analytics-Ready Tables for BI Tools                   │ │
-│  └────────────────────────────────────────────────────────┘ │
-└──────────────────────────┬───────────────────────────────────┘
-                           │
-                           ▼
-┌──────────────────────────────────────────────────────────────┐
-│                    BI & VISUALIZATION                        │
-│  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐         │
-│  │   Looker    │  │   Tableau   │  │  Power BI   │         │
-│  │   Studio    │  │             │  │             │         │
-│  └─────────────┘  └─────────────┘  └─────────────┘         │
-└──────────────────────────────────────────────────────────────┘
 
-┌──────────────────────────────────────────────────────────────┐
-│                    MONITORING & LOGGING                      │
-│  • Pipeline execution logs                                   │
-│  • DBT test results                                          │
-│  • Data quality metrics                                      │
-└──────────────────────────────────────────────────────────────┘
-```
 
 ---
 
@@ -228,6 +119,7 @@ can2025_pipeline/
 ├── 🐍 1_generate_data.py             # Step 1: Generate CAN 2025 data
 ├── 🐍 2_load_to_gcs.py               # Step 2: Upload to GCS
 ├── 🐍 3_load_to_bigquery.py          # Step 3: Load to BigQuery
+├── 🐍 dashboard.py                   # streamlit dashboard
 │
 ├── 📁 generated_tables/              # Generated CSV files
 │   ├── teams.csv                     # 24 teams
@@ -262,7 +154,6 @@ can2025_pipeline/
     │   │   ├── schema.yml
     │   │   ├── int_team_performance.sql
     │   │   ├── int_player_statistics.sql
-    │   │   ├── int_match_intensity.sql
     │   │   └── int_revenue_analysis.sql
     │   │
     │   └── 📁 marts/                 # Layer 3: Analytics ready
@@ -270,7 +161,6 @@ can2025_pipeline/
     │       ├── mart_team_standings.sql
     │       ├── mart_top_scorers.sql
     │       ├── mart_stadium_performance.sql
-    │       ├── mart_match_calendar.sql
     │       └── mart_financial_summary.sql
     │
     ├── 📁 macros/                    # Reusable SQL functions
@@ -281,6 +171,14 @@ can2025_pipeline/
 ```
 
 ---
+## 📸 Screenshots
+
+![scplayer_impactr](/screenshots/player_impact.png)
+![Revenue_by_tournament_phase](/screenshots/Revenue_by_tournament_phase.png)
+![Revenue_intelligence](/screenshots/Revenue_intelligence.png)
+![stadium_utilization](/screenshots/stadium_utilization.png)
+![Team_performance_groupA](/screenshots/Team_performance_groupA.png)
+![Team_performance_groupB](/screenshots/Team_performance_groupB.png)
 
 ## 📋 Prerequisites
 
@@ -1513,7 +1411,7 @@ If you find this project helpful, please consider giving it a ⭐!
 
 ---
 
-## 📸 Screenshots
+
 
 ### Pipeline Execution
 ```
@@ -1525,11 +1423,9 @@ $ python 1_generate_data.py
 ```
 
 ### DBT Docs
-![DBT Documentation](https://via.placeholder.com/800x400?text=DBT+Lineage+Graph)
-![Architecture Diagram](archipng)
+![DBT Documentation](./screenshots/lineageGraph.png)
 
-### Dashboard Example
-![Dashboard](https://via.placeholder.com/800x400?text=Executive+Dashboard)
+
 
 ---
 
