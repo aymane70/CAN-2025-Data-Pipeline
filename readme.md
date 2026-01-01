@@ -1526,6 +1526,7 @@ $ python 1_generate_data.py
 
 ### DBT Docs
 ![DBT Documentation](https://via.placeholder.com/800x400?text=DBT+Lineage+Graph)
+![Architecture Diagram](archipng)
 
 ### Dashboard Example
 ![Dashboard](https://via.placeholder.com/800x400?text=Executive+Dashboard)
